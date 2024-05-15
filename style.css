@@ -1,0 +1,57 @@
+*{
+    font-family: "poppins" sans-serif;
+}
+
+body {
+  background-color: grey;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+
+.card {
+  justify-content: center;
+  width: 30%;
+  border-radius: 25px;
+  padding: 30px;
+  background-color: white;
+}
+
+.card a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.login {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: hsla(240, 76%, 61%, 0.979);
+  border: none;
+  width: 100%;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.create {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+input {
+    border-radius: 15px;
+    border: .5px solid grey;
+    padding: 14px;
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+}
